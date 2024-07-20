@@ -1,0 +1,109 @@
+*{
+    margin : 0;
+    padding: 0;
+}
+body{
+    background-color: #222;
+    color: white;
+    font-family: system-ui;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+.head{
+    text-transform: uppercase;
+    padding: 10px;
+    text-align: center;
+}
+input{
+height: 30px;
+padding: 10px;
+background-color: #111;
+border: none;
+margin: 10px;
+width: 100%;
+border-radius: 10px;
+color: white;
+border: none;
+}
+input:focus{
+    border: none ;
+    outline: none;
+    transform: scale(1.1);
+    transition: 1s;
+}
+.numbers input{
+    width: 17%;
+}
+#total{
+    background-color: rgb(56, 56, 56);
+    padding: 10px;
+    border-radius: 10px;
+}
+#total::before{
+    content: "total : ";
+}
+#btn_create{
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(182, 15, 182);
+    cursor: pointer;
+    color: white;
+    border: none;
+
+}
+#btn_create:hover{
+    background-color: rgb(109, 8, 109);
+
+}
+.btn_search{
+    display: flex;
+    justify-content: space-between;
+    border: none;
+}
+.search button{
+    width: 30%;
+    height: 30px;
+    background-color: rgb(182, 15, 182);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+
+}
+#btn_update, #btn_delete {
+    background-color: rgb(182, 15, 182);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+}
+#btn_delete:hover{
+    background-color: rgb(109, 8, 109);
+}
+#btn_update:hover{
+    background-color: rgb(109, 8, 109);
+    
+}
+button:hover{
+    background-color: rgb(109, 8, 109);
+    letter-spacing: 2px;
+    transition: 1s;
+    border: none;
+}
+table{
+    width: 100%;
+    margin-top: 20px;
+}
+#btn_Delete_all{
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(182, 15, 182);
+    cursor: pointer;
+    color: white;
+    border: none;
+    margin-top: 10px;
+}
